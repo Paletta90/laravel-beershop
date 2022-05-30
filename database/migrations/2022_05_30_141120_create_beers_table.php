@@ -18,7 +18,7 @@ class CreateBeersTable extends Migration
             $table->string('nome');
             $table->string('colore');
             $table->decimal('tasso_alcolico', 3, 1);
-            $table->decimal('prezzo', 8, 2);
+            $table->decimal('prezzo');
             $table->string('descrizione');
             $table->string('codice_prodotto');
             $table->boolean('disponibile');
