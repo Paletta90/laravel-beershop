@@ -13,7 +13,7 @@
 
     <div class="container">
         @forelse ($beers as $key => $beer)
-            <div class="col card .bg-warning bg-gradient text-white border">
+            <div class="col card bg-warning bg-gradient text-dark border py-3 my-3">
                 <div class="card-body">
                     <h5 class="card-title h6 text-center mb-4">{{ $beer->nome }}</h5>
                     
